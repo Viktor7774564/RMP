@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.LoginPage">
+    
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="user_avatar.png" Margin="1,200,1,1"/>
+
+            <Entry Text="" HorizontalTextAlignment="Center" BackgroundColor="White" Margin="10,100,10,1"/>
+            <Entry Text="" HorizontalTextAlignment="Center" BackgroundColor="White" Margin="10,30,10,1"/>
+            <Button Text="Вход" Margin="80,30,80,10" BackgroundColor="#4A799A" TextColor="White" TextTransform="None"/>
+        </StackLayout>
+    </ContentPage.Content>
+    
+    
+</ContentPage>
